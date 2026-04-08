@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       ref={sectionRef}
-      className="relative flex items-center justify-center overflow-hidden pt-12 pb-4 sm:pt-16 sm:pb-6 px-4 min-h-[70vh] sm:min-h-[80vh]"
+      className="relative flex items-center justify-center overflow-hidden pt-6 pb-4 sm:pt-8 sm:pb-6 px-4 min-h-[70vh] sm:min-h-[80vh]"
     >
       {/* Subtle background shapes with gentle floating animation */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
